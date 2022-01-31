@@ -12,8 +12,7 @@ html {
 .menu {
     padding: 0;
 }
-.index-titulo {
-    padding: 0;}
+
   
 ul {
   list-style-type: none;
@@ -50,9 +49,16 @@ a{
 .row{
   padding: 0;
   margin: 0;
+
 }
-
-
+.container-fluid{
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.rec{
+  background-color: #d5ffd9;
+  border-radius: 84px 120px 120px 0px;
+}
 
 li a {
   display: block;
@@ -121,8 +127,10 @@ div {
   font-size: 22px;
   text-align: justify;
 }
-.imagenprimera{
+.imagen1{
   margin: 10px;
+  width: 95%;
+  text-align: center;
 }
 
 /* Pages */
@@ -434,7 +442,7 @@ div {
   }
   div {
     font-size: 20px;
-    padding: 2px;
+    padding: 0px;
   }
   h2 {
     font-size: 20px;

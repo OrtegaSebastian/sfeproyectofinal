@@ -40,63 +40,73 @@
     <h1 class="titulo">Formulario de Contacto</h1>
     <form>
         <div class="form-row">
-        <div class="form-group col-md-6">
-            <label for="inputNombre">Nombre</label>
+            <div class="form-group col-md-6">
+                <label for="inputNombre">Nombre</label>
                 <input type="text" class="form-control" id="inputNombre" placeholder="Ingrese su Nombre">
             </div>
+        </div>
+        <div class="form-row">
             <div class="form-group col-md-6">
-            <label>Apellido</label>
+                <label>Apellido</label>
                 <input type="text" class="form-control" id="inputApellido" placeholder="Ingrese su apellido">
             </div>
         </div>
-        <div class="form-group">
-            <label for="inputDomicilio">Dirección</label>
-            <input type="text" class="form-control" id="inputDomicilio" placeholder="Ingrese su domicilio">
-        </div>
-        <div class="form-group">
-            <label for="Email">Email</label>
-            <input type="email" class="form-control" id="inputEmail" placeholder="Ingrese su dirección de correo">
-        </div>
-        <div class="form-group">
-            <label for="inputEdad">Edad</label>
-            <input type="number" class="form-control" id="inputEdad" placeholder="Ingrese su edad">
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="inputDomicilio">Dirección</label>
+                <input type="text" class="form-control" id="inputDomicilio" placeholder="Ingrese su domicilio">
+            </div>
         </div>
         <div class="form-row">
-            <div class="form-group col-md-12">
-            <label for="inputCiudad">Ciudad</label>
+            <div class="form-group col-md-6">
+                <label for="Email">Email</label>
+                <input type="email" class="form-control" id="inputEmail" placeholder="Ingrese su dirección de correo">
+            </div>
         </div>
-            <input type="text" class="form-control" id="inputCiudad" placeholder="Ingrese su ciudad">
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="inputEdad">Edad</label>
+                <input type="number" class="form-control" id="inputEdad" placeholder="Ingrese su edad">
+            </div>
+        </div>    
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="inputCiudad">Ciudad</label>
+                <input type="text" class="form-control" id="inputCiudad" placeholder="Ingrese su ciudad">
+            </div>
         </div>
-        <div>
+        
+        <div class="form-row">
+            <div class="form-group col-md-6">
             <label for="inputConsulta"></label>
             <textarea class="form-group col-md-12 " id="inputConsulta" placeholder="Por favor Ingrese su consulta"></textarea>
+            <button type="submit" class="btn btn-primary">Enviar</button>
         </div>
-        <button type="submit" class="btn btn-primary">Enviar</button>
+        </div>
+        
     </form>
-    <div >
-        <a class="inicio" href="#inicio"></a>
-    </div>
+    
 
-    <footer class="page-footer font-small blue pt-4">
+    <footer>
     <div class="container-fluid text-center text-md-center">
     <div class="row">
-            <div   div class="col-md-12 mt-md-0 mt-3">
+            <div   div class="col-md-12 mt-md-0 mt-3 p-0 m-0">
             <h3 class="footer-copyright text-center py-3 redes">Aqui podrás encontrar nuestras redes</h3>
             <!-- Links -->
-                <ul>
-                    <li>
+                <ul class="footer">
+                    <li class="footer">
                         <a href="https://www.facebook.com">
                             <img src="../img/facebook.png" alt="facebook">
                             <h5>Facebook</h5>
                         </a>
                     </li>
-                    <li>
+                    <li class="footer">
                         <a href="https://www.instagram.com">
                             <img src="../img/Instagram.png" alt="instagram">
                             <h5>Instagram</h5>
                         </a>
                     </li> 
-                    <li>
+                    <li class="footer">
                         <a href="https://www.whatsapp.com">
                             <img src="../img/Whatsapp.png" alt="whatsapp">
                             <h5>Whatsapp</h5>
